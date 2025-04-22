@@ -8,3 +8,5 @@ This project demonstrates a **Drive-by Download Attack Simulation** in a safe, o
 > ⚠️ This simulation is **strictly for learning and ethical use only**. No unauthorized access or real-world attacks are permitted.
 
 ## 📁 Project Structure
+
+project-root/ ├── web/ │ ├── index.html # Fake landing page for download │ ├── zoom.ico # Custom favicon/icon │ └── ZoomInstaller.exe # Obfuscated GUI + Payload Installer ├── payload/ │ ├── payload.exe # msfvenom/metasploit payload │ └── stage2.exe # Optional second-stage dropper ├── gui/ │ ├── installer.py # Python GUI script (Tkinter) │ └── ZoomSetup.spec # PyInstaller spec file ├── server/ │ └── logger.py # Flask app for logging victim activity ├── build/ │ └── ZoomInstaller.iss # Inno Setup script for packaging ├── report/ │ └── Project_Report.pdf # Detailed step-by-step documentation ├── README.md └── DISCLAIMER.md
